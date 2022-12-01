@@ -1,0 +1,259 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    width: 100%;
+    height: 100vh;
+    font-family: 'Roboto', sans-serif;
+    background-color: #fff;
+    display: flex;
+    justify-content: center;
+}
+
+.container {
+    width: 100%;
+    height: 100vh;
+    padding: 0 0px;
+    background-color: #fff;
+}
+
+/* HEADER */
+
+.header {
+    height: 72px;
+    width: 100%;
+    padding: 0 120px;
+    background-color: #1f2937;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.logo {
+    font-size: 24px;
+    color: #f9faf8;
+
+}
+
+.nav-list {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 18px;
+    list-style: none;
+    color: #e5e7eb;
+}
+
+/* MAIN */
+
+.hero {
+    background-color: #1f2937;
+    width: 100%;
+    height: 400px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 16px;
+    padding: 0 120px;
+}
+
+.text {
+    /* background-color: #3882f6; */
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex: 1;
+    flex-shrink: 0;
+    width: 400px;
+    height: 248px;
+    gap: 16px;
+    margin-right: 50px;
+}
+
+.title {
+    color: #f9faf8;
+    font-size: 48px;
+}
+
+.description {
+    color: #e5e7eb;
+    margin-right: 50px;
+    margin-top: 10px;
+    text-align: left;
+}
+
+.sign-up {
+    background-color: #3882f6;
+    color: #e5e7eb;
+    font-size: 16px;
+    font-weight: 600;
+    padding: 6px 26px;
+    border-radius: 6px;
+    border: none;
+    align-self: flex-start;
+    margin-top: 22px;
+}
+
+
+.photo {
+    width: 50%;
+    height: 248px;
+    background-color: gray;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-self: center;
+    flex-grow: 0;
+    flex-shrink: 0;
+}
+
+
+/* CARD SECTION */
+
+.box {
+    height: 200px;
+    width: 200px;
+    color: #fff;
+    border: 3px solid #3882f6;
+    border-radius: 10px;
+    
+}
+
+
+.card {
+    width: 200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 16px;
+}
+
+p {
+    text-align: center;
+}
+
+
+h2 {
+    align-self: flex-start;
+    text-align: center;
+    margin-top: 30px;
+    font-size: 36px;
+    color: #1f2937;
+    font-weight: 800;
+}
+
+.cards {
+    width: 100%;
+    height: 400px;
+    padding: 0 120px;
+    background-color: #fff;
+    display: flex;
+    flex-wrap: wrap;
+    flex: 1;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: -30px;
+
+}
+
+
+/* TESTIMONIAL SECTION */
+
+.testimonial {
+    width: 100%;
+    height: 400px;
+    background-color: #e5e7eb;
+    padding: 0px 120px;
+    font-size: 36px;
+    font-weight: 200;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: left;
+}
+
+.testimonial-letter {
+    font-style: italic;
+    text-align: left;
+    letter-spacing: 0.1rem;
+    word-wrap: break-word;
+    width: 100%;
+}
+
+.author {
+    font-size: 18px;
+    font-weight: 900;
+    align-self: flex-end;
+    margin: 20px;
+}
+
+
+/* CTA SECTION */
+
+.modal {
+    width: 100%;
+    height: 400px;
+    background-color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cta-btn {
+    height: 35%;
+    width: 70%;
+    background-color: #3882f6;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 8px 156px;
+}
+
+.cta-btn, h2 {
+    font-size: 24px;
+    color: #f9faf8;
+}
+
+.cta-title {
+    align-self: flex-start;
+    margin-top: 0px;    
+}
+
+
+.description {
+    font-size: 18px;
+    color: #e5e7eb;
+    margin: 0;
+    margin-bottom: -15px;
+}
+
+.sign-up.inverted {
+    background-color: #3882f6;
+    border: 2px solid #f9faf8;
+    color: #f9faf8;
+    margin-top: -22px;
+    align-self: flex-end;
+}
+
+
+/* FOOTER SECTION */
+
+.footer{
+    height: 72px;
+    width: 100%;
+    padding: 0 120px;
+    background-color: #1f2937;
+    color: #f9faf8;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
